@@ -1,0 +1,137 @@
+{
+    "Amruthaballi": {
+        "uses": "Amruthaballi is widely used in Ayurvedic medicine to treat ailments such as fever, respiratory problems, and inflammation. It is known for detoxifying the body and improving liver function. Additionally, it aids in managing blood sugar levels and supports joint health, making it a preferred remedy for arthritis.",
+        "benefits": "Amruthaballi boosts immunity and strengthens the body's resistance to infections. It enhances digestion and alleviates gastrointestinal issues. The herb is effective in managing chronic conditions like diabetes and arthritis due to its anti-inflammatory properties. It also supports metabolic health and increases vitality.",
+        "locations": "Native to India and found in tropical regions."
+    },
+    "Bhrami": {
+        "uses": "Bhrami is renowned for its cognitive-enhancing properties, often used to improve memory and concentration. It helps reduce anxiety and stress, promoting mental calmness. The herb is also beneficial in treating neurological disorders like epilepsy and improving sleep quality. It has applications in managing degenerative brain diseases.",
+        "benefits": "Bhrami supports brain health by enhancing clarity, focus, and learning abilities. It reduces oxidative stress in the brain, protecting against aging. The herb promotes emotional well-being by reducing anxiety and improving sleep patterns. It is also known for its adaptogenic properties, helping the body manage stress.",
+        "locations": "Common in tropical and subtropical regions, often near water bodies."
+    },
+    "Drumstick": {
+        "uses": "Drumstick is used in cooking for its highly nutritious leaves and pods. It helps manage digestive disorders and boosts immunity. Traditional medicine uses it for regulating blood sugar levels, improving metabolism, and supporting cardiovascular health. The leaves are also used in treating anemia due to their iron content.",
+        "benefits": "Drumstick leaves are rich in vitamins A, C, and calcium, supporting bone health and immunity. They promote healthy digestion and help detoxify the body. The plant aids in reducing cholesterol, improving heart health, and supporting weight management. Its high nutrient content also combats malnutrition.",
+        "locations": "Native to India and commonly found in tropical regions worldwide."
+    },
+    "Beans": {
+        "uses": "Beans are a versatile ingredient in global cuisine and are valued for their high protein content. They are used in traditional remedies to control cholesterol, improve digestion, and stabilize blood sugar levels. Beans are also a staple in weight management diets due to their filling nature and fiber content.",
+        "benefits": "Beans provide essential nutrients, including protein, fiber, iron, and folate. They support muscle health and improve digestive regularity. The high fiber content helps manage cholesterol and promotes heart health. Beans are beneficial for stabilizing blood sugar levels, making them ideal for diabetes management.",
+        "locations": "Grown worldwide, thriving in tropical and temperate regions."
+    },
+    "Curry": {
+        "uses": "Curry leaves are a staple in Indian cooking, adding flavor and aroma to dishes. They are used in traditional medicine to treat gastrointestinal issues like indigestion, diarrhea, and constipation. The leaves are also applied in hair care remedies to reduce hair fall and enhance hair health.",
+        "benefits": "Curry leaves improve digestion and support gut health. They have antioxidant and anti-inflammatory properties that protect against chronic diseases. The leaves promote hair growth, reduce dandruff, and prevent premature graying. They also help in maintaining blood sugar levels and improving liver function.",
+        "locations": "Native to India and Southeast Asia, thriving in tropical climates."
+    },
+    "Citron lime (Herelikai)": {
+        "uses": "Citron lime is commonly used in cooking to add a tangy flavor to dishes and beverages. It is used in traditional remedies for treating colds, sore throats, and coughs. The juice is also applied to the skin to brighten complexion and treat acne. It is consumed as a refreshing drink to hydrate and detoxify the body.",
+        "benefits": "Citron lime is rich in vitamin C, boosting immunity and promoting healthy skin. It aids digestion by stimulating digestive enzymes and prevents constipation. The fruit has detoxifying properties that cleanse the liver and kidneys. It also helps in weight management by improving metabolism.",
+        "locations": "Found in tropical and subtropical regions, often in home gardens."
+    },
+    "Arali": {
+        "uses": "Arali is used in traditional medicine for treating respiratory issues, including coughs and asthma. It is known for its anti-inflammatory properties, which help reduce joint and muscle pain. The plant is also used to enhance skin health and improve blood circulation.",
+        "benefits": "Arali improves respiratory health, making it easier to breathe during conditions like asthma. It reduces inflammation and promotes faster healing of wounds. The herb also supports cardiovascular health and alleviates stress, improving overall well-being.",
+        "locations": "Native to India, often found in rural and urban gardens."
+    },
+    "Ashoka": {
+        "uses": "Ashoka is primarily used in Ayurvedic medicine to treat gynecological disorders like menstrual irregularities and uterine issues. It is also used to manage skin conditions and improve overall reproductive health. The bark is made into decoctions for treating internal bleeding and inflammation.",
+        "benefits": "Ashoka supports menstrual health by regulating cycles and reducing cramps. It strengthens the uterus and is beneficial in managing hormonal imbalances. The plant has anti-inflammatory and antioxidant properties that promote skin health and reduce oxidative stress.",
+        "locations": "Commonly found in India and Southeast Asia."
+    },
+    "Badipala": {
+        "uses": "Badipala is used in traditional medicine for its digestive and febrifuge properties. It is effective in treating fevers, diarrhea, and gastrointestinal disorders. The plant is also used in skincare remedies for treating acne and improving complexion.",
+        "benefits": "Badipala helps alleviate digestive discomfort and promotes gut health. It reduces fever and supports the immune system during infections. The plant has anti-inflammatory properties that soothe the skin and prevent acne outbreaks. It also aids in detoxification.",
+        "locations": "Native to India and Southeast Asia."
+    },
+    "Balloon Vine": {
+        "uses": "Balloon vine is used in traditional remedies to treat respiratory problems like asthma and chronic cough. It is also applied to the skin to reduce inflammation and heal wounds. The plant is consumed to alleviate joint pain and improve mobility in arthritis patients.",
+        "benefits": "Balloon vine provides relief from respiratory issues by reducing airway inflammation. It soothes joint pain and enhances mobility. The plant has antimicrobial and anti-inflammatory properties that accelerate wound healing and prevent infections. It also boosts the immune system.",
+        "locations": "Commonly found in tropical regions."
+    },
+   "Chakte": {
+        "uses": "Chakte is widely used in traditional medicine to treat fever, cold, and respiratory issues. It is known for its soothing effects on the body and is often used to relieve inflammation and infection. Additionally, it has a role in detoxification and improving overall health.",
+        "benefits": "Chakte boosts the immune system, alleviates fever, and helps in the management of cold and flu. It is believed to have antiviral and anti-inflammatory properties that promote healing and improve overall wellness.",
+        "locations": "Native to tropical and subtropical regions, mainly found in South Asia, where it thrives in humid climates."
+    },
+    "Coffee": {
+        "uses": "Coffee is primarily brewed for its stimulating properties, making it a popular drink worldwide. It has been used for centuries for its mental alertness-enhancing effects and is also known to have some medicinal uses such as improving digestion and reducing fatigue.",
+        "benefits": "Coffee enhances mental alertness, reduces fatigue, and boosts cognitive performance. It contains antioxidants that promote overall health, including cardiovascular health and reduced risk of certain diseases.",
+        "locations": "Native to Africa, coffee is now widely cultivated in tropical regions around the world, including Brazil, Vietnam, and Colombia."
+    },
+    "Common rue(naagdalli)": {
+        "uses": "Common rue is used in folk medicine for treating various ailments such as fever, digestive issues, headaches, and respiratory problems. It is often used as a poultice or in herbal remedies to alleviate pain and inflammation.",
+        "benefits": "Rue has strong anti-inflammatory, antimicrobial, and analgesic properties. It is beneficial in reducing inflammation, treating infections, and improving overall health. It is also believed to have calming effects on the body.",
+        "locations": "Common in tropical and subtropical regions, including Southeast Asia, the Mediterranean, and parts of India."
+    },
+    "Caricature": {
+        "uses": "Caricature is used in traditional medicine for its digestive and detoxifying properties. It helps improve digestion and alleviate symptoms like bloating, constipation, and indigestion. It is also used for its potential to promote overall wellness.",
+        "benefits": "Caricature supports digestive health by alleviating constipation and bloating. It has detoxifying properties that help cleanse the body, promoting better digestion and gut health.",
+        "locations": "Native to tropical regions, primarily found in Africa, South America, and parts of Asia."
+    },
+    "Aloe Vera": {
+        "uses": "Aloe Vera is widely used for its medicinal properties in skincare, treating burns, wounds, and other skin ailments. It is also consumed for its digestive benefits and is used to relieve symptoms of acid reflux.",
+        "benefits": "Aloe Vera has anti-inflammatory properties that help soothe and heal the skin, as well as aid in treating digestive issues. It is also rich in antioxidants and helps boost the immune system.",
+        "locations": "Native to Africa, Aloe Vera is now widely cultivated in tropical regions worldwide, including India, the Caribbean, and parts of South America."
+    },
+    "Catharanthus": {
+        "uses": "Catharanthus, commonly known as the Madagascar periwinkle, is used in cancer treatment, particularly for its alkaloid compounds that have been shown to have anticancer properties. It is also used in managing diabetes and regulating blood sugar levels.",
+        "benefits": "Catharanthus contains compounds that have anti-cancer and anti-diabetic properties. It is beneficial for managing blood sugar levels, supporting metabolic health, and promoting general well-being.",
+        "locations": "Common in tropical regions, particularly in India, Southeast Asia, and parts of Africa."
+    },
+    "Doddpathre": {
+        "uses": "Doddpathre is used in Ayurveda to treat a range of health issues, including respiratory problems, fevers, and digestive disorders. It is also known for its ability to improve liver function and support overall vitality.",
+        "benefits": "Doddpathre helps treat respiratory issues, manage fever, and alleviate gastrointestinal problems. Its anti-inflammatory properties are also beneficial for managing chronic conditions like arthritis.",
+        "locations": "Found primarily in India and Southeast Asia, especially in tropical climates."
+    },
+    "Chilly": {
+        "uses": "Chilly is used extensively as a spice in cooking due to its pungent flavor and heat. It is also known for its medicinal properties, such as boosting metabolism and improving digestion.",
+        "benefits": "Chilly helps boost metabolism, improves digestion, and contains antioxidants that contribute to overall health. It is also known to have anti-inflammatory and pain-relieving properties.",
+        "locations": "Commonly found in tropical and subtropical regions, including India, China, and parts of Africa."
+    },
+    "Bringaraja": {
+        "uses": "Bringaraja is used in traditional medicine for promoting hair growth, improving liver function, and supporting overall health. It is commonly used in Ayurvedic treatments to rejuvenate the body and mind.",
+        "benefits": "Bringaraja helps reduce hair fall, promotes hair growth, and supports liver health. It is also believed to improve skin health and vitality.",
+        "locations": "Native to India, and commonly found in herbal gardens and traditional medicinal practices."
+    },
+    "Coriender": {
+        "uses": "Coriender, also known as cilantro, is used both as a culinary spice and for its medicinal properties. It helps with digestion, detoxification, and has antimicrobial effects.",
+        "benefits": "Coriender improves digestion, has antimicrobial properties, and is often used to treat indigestion, bloating, and food poisoning. It also has anti-inflammatory and antioxidant benefits.",
+        "locations": "Found globally, but especially common in Mediterranean regions, parts of India, and Southeast Asia."
+    },
+    "Castor": {
+        "uses": "Castor is used for treating skin conditions, such as acne and burns, as well as for its laxative properties. It is also used for its healing effects on wounds and inflammation.",
+        "benefits": "Castor oil has anti-inflammatory, healing, and digestive properties. It is used topically to treat skin conditions and internally for constipation.",
+        "locations": "Commonly found in tropical regions, including parts of Africa, Asia, and the Mediterranean."
+    },
+    "Amla": {
+        "uses": "Amla, or Indian gooseberry, is used in Ayurveda for its numerous health benefits, including boosting immunity, improving digestion, and promoting skin health.",
+        "benefits": "Amla is rich in Vitamin C and antioxidants, boosting immunity, improving skin health, and providing anti-inflammatory benefits. It also aids in digestion and detoxification.",
+        "locations": "Native to India, amla is widely found in tropical regions of Southeast Asia and parts of Africa."
+    },
+    "Astma_weed": {
+        "uses": "Astma_weed is used for treating asthma and respiratory conditions. Its anti-inflammatory properties help alleviate symptoms of asthma and other respiratory issues.",
+        "benefits": "Astma_weed helps reduce inflammation in the airways, improving breathing and reducing symptoms of asthma. It also supports lung health and overall respiratory function.",
+        "locations": "Found in tropical regions, including parts of South America, Africa, and Southeast Asia."
+    },
+    "Bamboo": {
+        "uses": "Bamboo is used in construction for making furniture, utensils, and in traditional medicine. It is also known for its antimicrobial properties and its use in joint health support.",
+        "benefits": "Bamboo has antimicrobial properties, supports joint health, and is often used in traditional medicine for its detoxifying effects and to promote overall wellness.",
+        "locations": "Common in tropical and subtropical regions, especially in Southeast Asia, China, and parts of Central America."
+    },
+    "Camphor": {
+        "uses": "Camphor is used for its aromatic properties and is commonly used in topical treatments for pain relief and as an inhalant for respiratory issues.",
+        "benefits": "Camphor helps relieve pain, reduces itching, and aids in inflammation. It is often used in balms and creams for its soothing effects and respiratory benefits.",
+        "locations": "Native to Southeast Asia, camphor is commonly found in countries like India, China, and Indonesia."
+    },
+    "Betel": {
+        "uses": "Betel is traditionally used for chewing, especially in many Asian cultures. It is used for its stimulating effects and as a digestive aid.",
+        "benefits": "Betel promotes oral health by reducing plaque buildup and enhancing digestion. It also has mild stimulant effects and is used to treat digestive issues.",
+        "locations": "Found in Southeast Asia, tropical regions of India, and other parts of South and Southeast Asia."
+    },
+    "Ekka": {
+        "uses": "Ekka is used for treating headaches, fever, and pain. It is also used for its anti-inflammatory and analgesic properties in traditional medicine.",
+        "benefits": "Ekka has pain-relieving properties and helps reduce inflammation. It is effective in managing headaches, fevers, and general body pain.",
+        "locations": "Commonly found in India and Southeast Asia, especially in tropical climates."
+    }
+}

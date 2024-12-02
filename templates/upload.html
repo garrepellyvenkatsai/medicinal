@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 style="text-align: center;margin-top: 100px;">Upload Leaf Image</h1>
+<form class="loginform uploadsection" method="POST" enctype="multipart/form-data" action="/upload">
+    <div class="mb-3">
+        <input type="file" class="form-control" name="leaf_image" required>
+    </div>
+    <button type="submit" class="btn btn-success">Upload</button>
+</form>
+{% endblock %}

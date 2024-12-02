@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container" style="background-color: aliceblue;margin-bottom:100px;height:fit-content;margin-top: 10px;">
+        <h2 class="text-center mb-5">Model Accuracy Comparison</h2>
+        <canvas id="accuracyChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        window.onload = function() {
+            fetch('/chart_data')
+                .then(response => response.json())
+                .then(data => {
+                    var modelNames = Object.keys(data);
+                    var accuracies = Object.values(data);
+
+                    var ctx = document.getElementById('accuracyChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: modelNames,
+                            datasets: [{
+                                label: 'Model Accuracy',
+                                data: accuracies,
+                                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching model accuracy data:', error);
+                });
+        };
+    </script>
+{% endblock %}

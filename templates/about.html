@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="background-color:rgb(190, 212, 189); width: 1200px; margin: auto; border-radius: 5px;">
+<div class="container mt-5">
+    <h1 class="text-center mb-4">About Medicinal Plant Identifier</h1>
+    <p>
+        The <strong>Medicinal Plant Identifier</strong> is a cutting-edge project designed to utilize advanced image processing 
+        and machine learning technologies to identify medicinal plants from images of their leaves. This project not only identifies 
+        the plant but also provides a wealth of information about its medicinal uses, benefits, and geographic locations, making it an 
+        invaluable tool for botanists, healthcare professionals, and nature enthusiasts.
+    </p>
+    
+    <h3>Key Features</h3>
+    <ul>
+        <li>
+            <strong>Plant Identification:</strong> Upload an image of a plant's leaf, and the system will predict the plant type using a trained 
+            Convolutional Neural Network (CNN) model.
+        </li>
+        <li>
+            <strong>Plant Information:</strong> Detailed information about the plant, including its medicinal uses, health benefits, and primary 
+            locations, is displayed after identification.
+        </li>
+        <li>
+            <strong>Plant Care Recommendations:</strong> Provides guidance on how to grow and care for the identified plant, including its sunlight 
+            requirements, watering schedule, soil type, and additional tips.
+        </li>
+        <li>
+            <strong>Recipe Suggestions:</strong> Offers recipes that utilize the identified plant, highlighting its edible and medicinal applications.
+        </li>
+        <li>
+            <strong>Symptom Checker:</strong> Allows users to input symptoms and receive a list of medicinal plants that may help alleviate their conditions.
+        </li>
+        <li>
+            <strong>Image Upload and Display:</strong> Users can upload an image, view the uploaded image, and receive all related information in an 
+            easy-to-navigate interface.
+        </li>
+    </ul>
+
+    <h3>How It Works</h3>
+    <p>
+        The project is powered by a deep learning model based on MobileNet architecture, trained on a diverse dataset of medicinal plant images. 
+        Here’s how the process works:
+    </p>
+    <ol>
+        <li>
+            Users upload an image of a plant's leaf.
+        </li>
+        <li>
+            The system processes the image and extracts features using the pre-trained CNN model.
+        </li>
+        <li>
+            The model predicts the plant type based on the extracted features and matches it with a database of known medicinal plants.
+        </li>
+        <li>
+            The identified plant’s details, including uses, benefits, and care tips, are fetched from a connected SQLite database.
+        </li>
+        <li>
+            Additional features like recipes and symptom-based plant recommendations enhance user experience.
+        </li>
+    </ol>
+
+    <h3>Technologies Used</h3>
+    <ul>
+        <li><strong>Machine Learning:</strong> TensorFlow/Keras for training and deploying the CNN model.</li>
+        <li><strong>Web Development:</strong> Flask framework for building the back-end API and rendering web pages.</li>
+        <li><strong>Database:</strong> SQLite for storing plant-related data, including care instructions, recipes, and symptom mappings.</li>
+        <li><strong>Frontend:</strong> HTML, CSS, and Bootstrap for creating a responsive and user-friendly interface.</li>
+        <li><strong>Image Processing:</strong> OpenCV and Keras preprocessing for preparing images before prediction.</li>
+    </ul>
+
+    <h3>What Makes This Project Unique?</h3>
+    <ul>
+        <li>
+            <strong>Educational Value:</strong> Provides detailed knowledge about medicinal plants, their properties, and how they are used 
+            in traditional and modern medicine.
+        </li>
+        <li>
+            <strong>Practical Applications:</strong> Can be used in fields like botany, healthcare, and agriculture for plant identification 
+            and utilization.
+        </li>
+        <li>
+            <strong>Customizable:</strong> The database and model can be extended to include more plants, making it scalable for future requirements.
+        </li>
+        <li>
+            <strong>Interactive Features:</strong> Offers additional features like plant care tips, recipes, and symptom checkers to make the 
+            system more engaging and useful.
+        </li>
+    </ul>
+
+    <h3>Potential Future Enhancements</h3>
+    <ul>
+        <li>
+            <strong>Leaf Disease Detection:</strong> Expanding the model to identify diseases on leaves and suggest remedies.
+        </li>
+        <li>
+            <strong>Real-Time Identification:</strong> Integrating augmented reality (AR) to identify plants in real time using a smartphone camera.
+        </li>
+        <li>
+            <strong>Offline Functionality:</strong> Allowing the application to work offline for remote areas without internet connectivity.
+        </li>
+        <li>
+            <strong>IoT Integration:</strong> Incorporating IoT devices for real-time monitoring of plant growth conditions.
+        </li>
+    </ul>
+
+    <h3>Conclusion</h3>
+    <p>
+        The Medicinal Plant Identifier is a comprehensive platform that combines technology and nature. By leveraging the power of 
+        machine learning, image processing, and web development, this project aims to make medicinal plant identification accessible 
+        to everyone. Whether you’re a student, researcher, or plant lover, this system is your gateway to understanding the world of 
+        medicinal plants.
+    </p>
+</div>
+</div>
+{% endblock %}

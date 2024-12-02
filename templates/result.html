@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Left Column: Image Display -->
+        <div class="col-md-6">
+            <div class="card shadow">
+                <img 
+                    src="{{ image_path }}" 
+                    alt="Uploaded Leaf Image" 
+                    class="card-img-top img-fluid rounded"
+                    style="max-height: 450px; object-fit: contain;margin-top: 15px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Uploaded Leaf Image</h5>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <!-- Right Column: Accordion for Details -->
+        <div class="col-md-6" style="height:800px;">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h4 class="text-center mb-4">Plant Information</h4>
+                    <h4 class="text-center mb-4">Plant Type: {{ plant_name }}</h4>
+                    <div class="accordion" id="plantDetails">
+                        <!-- Uses Section -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingUses">
+                                <button 
+                                    class="accordion-button" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseUses" 
+                                    aria-expanded="true" 
+                                    aria-controls="collapseUses">
+                                    Uses
+                                </button>
+                            </h2>
+                            <div 
+                                id="collapseUses" 
+                                class="accordion-collapse collapse show" 
+                                aria-labelledby="headingUses" 
+                                data-bs-parent="#plantDetails">
+                                <div class="accordion-body">
+                                    {{ plant_details.uses }}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cures Section -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingCures">
+                                <button 
+                                    class="accordion-button collapsed" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseCures" 
+                                    aria-expanded="false" 
+                                    aria-controls="collapseCures">
+                                    Cures
+                                </button>
+                            </h2>
+                            <div 
+                                id="collapseCures" 
+                                class="accordion-collapse collapse" 
+                                aria-labelledby="headingCures" 
+                                data-bs-parent="#plantDetails">
+                                <div class="accordion-body">
+                                    {{ plant_details.benefits }}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Locations Section -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingLocations">
+                                <button 
+                                    class="accordion-button collapsed" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseLocations" 
+                                    aria-expanded="false" 
+                                    aria-controls="collapseLocations">
+                                    Locations
+                                </button>
+                            </h2>
+                            <div 
+                                id="collapseLocations" 
+                                class="accordion-collapse collapse" 
+                                aria-labelledby="headingLocations" 
+                                data-bs-parent="#plantDetails">
+                                <div class="accordion-body">
+                                    {{ plant_details.locations }}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Plant Care Section -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingCare">
+                                <button 
+                                    class="accordion-button collapsed" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseCare" 
+                                    aria-expanded="false" 
+                                    aria-controls="collapseCare">
+                                    Plant Care
+                                </button>
+                            </h2>
+                            <div id="collapseCare" class="accordion-collapse collapse" aria-labelledby="headingCare" data-bs-parent="#plantDetails">
+                                <div class="accordion-body">
+                                    <p><strong>Sunlight Requirements:</strong> {{ plant_care_details.sunlight }}</p>
+                                    <p><strong>Watering Schedule:</strong> {{ plant_care_details.watering }}</p>
+                                    <p><strong>Soil Type:</strong> {{ plant_care_details.soil }}</p>
+                                    <p><strong>Additional Tips:</strong> {{ plant_care_details.tips }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recipe Maker Section -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingRecipes">
+                                <button 
+                                    class="accordion-button collapsed" 
+                                    type="button" 
+                                    data-bs-toggle="collapse" 
+                                    data-bs-target="#collapseRecipes" 
+                                    aria-expanded="false" 
+                                    aria-controls="collapseRecipes">
+                                    Recipe Maker
+                                </button>
+                            </h2>
+                            <div id="collapseRecipes" class="accordion-collapse collapse" aria-labelledby="headingRecipes" data-bs-parent="#plantDetails">
+                                <div class="accordion-body">
+                                    <ul>
+                                        {% for recipe in recipes %}
+                                        <li><strong>{{ recipe.recipe_name }}</strong>: {{ recipe.instructions }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End of Accordion -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
